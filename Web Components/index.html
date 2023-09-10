@@ -3,27 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/card.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <script src="/src/Components/cardNews.js" defer></script> 
+    <script src="/src/Components/TituloDinamico.js" defer></script>
     <title>Portal De Noticias</title>
 </head>
 <body>
     <div class="container">
-
-        <div class="card">
-
-            <div class="card_left">
-                <span>Gustavo</span>
-                <a href="#">Darth Vader Contrata Devs</a>
-                <p>Darth vader procura desenvolvedores</p>
-            </div>
-
-            <div class="card_right">
-                <img class="imagem" src="assets/00-890x556.jpeg" alt="">
-            </div>
-
-        </div>
-    </div>
-
+     <card-news 
+     autor="Gustavo" 
+     title="Darth" 
+     contet="Darth vader procura desenvolvedores" 
+     link-url="google.com" 
+     photo="assets/00-890x556.jpeg"
+    ></card-news>
 </body>
 </html>
 

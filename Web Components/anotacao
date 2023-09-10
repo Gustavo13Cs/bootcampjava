@@ -1,3 +1,8 @@
 o Dom e um modelo que os Browser usa pra rederizar o nosso arquivos, em formato de arvore
 Shwadow Dom isso significa que podemos criar o nosso proprio sistema de arvore dentro do outro 
 onde temos total controle. 
+
+
+components e otimo pra reaproveitar em varios outros projetos ou no mesmo projeto.
+
+
