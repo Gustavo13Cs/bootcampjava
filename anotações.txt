@@ -1,0 +1,22 @@
+Angular
+
+Gerenciamento de estados e responsavel por garantir que as informações dos componentes não estão dessincronizadas e facilitar a comunicação
+de um componente com outro , ex - atualizar carrinho de compras ao clicar no botão de comprar de um produto
+
+Roteamento e responsavel pela forma de navegar fazendo a troca de URL sem recarregar a pagina,mudando somente os componentes que são mostrados.
+
+Renderização e responsavel por decidir a melhor maneiro de acessar e entregar para o browser o componente pronto para que ele seja desenhado na janela sem
+complicações.
+
+No angular cada componente tem seu css unico( ele da preferencia pro css do component, não pro css geral 
+
+Data binding e o conceito de passar um estado da aplicação pro estado visual 
+
+{{}} interpolação 
+[propriedade] = "Valor" property binding 
+(evento) = "Handler" evet binding
+[(ngModel)] = "propriedade" two wat Data binding
+
+data binding = associação de dados 
+
+ 
