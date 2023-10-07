@@ -19,4 +19,6 @@ Data binding e o conceito de passar um estado da aplicação pro estado visual
 
 data binding = associação de dados 
 
+
+O Angular tem 8 ciclos de vida
  
